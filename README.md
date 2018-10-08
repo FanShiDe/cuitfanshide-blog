@@ -1,8 +1,8 @@
 # StyledBlog starter for Gatsby
 
-[DEMO website](https://gsbs.greglobinski.com/)
+[DEMO website](http://207.148.126.69:3002)
 
-![](static/screens/demo-screencast.gif)
+![](static/screens/demo-screencast.png)
 
 This is a starter/theme for [Gatsby](https://github.com/gatsbyjs/gatsby).
 
