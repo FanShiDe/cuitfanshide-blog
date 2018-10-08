@@ -1,0 +1,58 @@
+{
+  "name": "cuitfanshide-blog",
+  "description": "Fanshide's Blog",
+  "author": "cuitfanshide<1154675139@qq.com>",
+  "license": "MIT",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FanShiDe/cuitfanshide-blog.git"
+  },
+  "scripts": {
+    "develop": "gatsby develop -H 0.0.0.0 -p 8000",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://github.com/FanShiDe/cuitfanshide-blog.git -e . -b master",
+    "new-blog": "node scripts/newBlog.js",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.110",
+    "gatsby-image": "^1.0.24",
+    "gatsby-link": "^1.6.27",
+    "gatsby-plugin-catch-links": "^1.0.9",
+    "gatsby-plugin-google-analytics": "^1.0.13",
+    "gatsby-plugin-manifest": "^1.0.8",
+    "gatsby-plugin-netlify": "^1.0.8",
+    "gatsby-plugin-offline": "^1.0.10",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sharp": "^1.6.21",
+    "gatsby-plugin-styled-components": "^2.0.2",
+    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-remark-copy-linked-files": "^1.5.21",
+    "gatsby-remark-images": "^1.5.32",
+    "gatsby-remark-prismjs": "^1.2.9",
+    "gatsby-remark-responsive-iframe": "^1.4.14",
+    "gatsby-remark-smartypants": "^1.4.8",
+    "gatsby-source-filesystem": "^1.5.8",
+    "gatsby-transformer-remark": "^1.7.21",
+    "gatsby-transformer-sharp": "^1.6.14",
+    "normalize.css": "^7.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "styled-components": "2.2.0",
+    "what-input": "^5.0.3"
+  },
+  "devDependencies": {
+    "chalk": "^2.3.0",
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1",
+    "figlet": "^1.2.0",
+    "gh-pages": "^1.1.0",
+    "inquirer": "^4.0.1",
+    "pinyin": "^2.8.3",
+    "prettier": "^1.9.2",
+    "regexpu-core": "^4.1.3"
+  }
+}
