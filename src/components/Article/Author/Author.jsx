@@ -22,8 +22,8 @@ const Avatar = styled.img`
   border: 1px solid ${props => props.theme.post.colors.authorBorder};
   border-radius: 100%;
   float: left;
-  height: auto;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   margin: -0.5em 1em 0 0;
 `;
 
@@ -34,7 +34,7 @@ const Author = () => {
 
   return (
     <Wrapper>
-      <Avatar src={avatar} alt="author" />
+      <Avatar src={require("./cat.jpeg")} alt="author" />
       <Text dangerouslySetInnerHTML={{ __html: content }} />
     </Wrapper>
   );
