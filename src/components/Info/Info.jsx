@@ -112,18 +112,8 @@ const Info = props => (
       <Logo>
         <img src="/icons/me.jpg" />
       </Logo>
-      <p>
-        This is the <em>cuitfanshide-blog</em> <b>site</b>. To download the code
-        and get some instructions visit the Github{' '}
-        <a
-          href="https://github.com/FanShiDe/cuitfanshide-blog"
-          target="_blank"
-          rel="noopener"
-        >
-          repository
-        </a>{' '}
-        <br /> Welcome to give me some advice or do some Technical
-        communications Email: 1154675139@qq.com
+      <p>Welcome to give me some advice or do some Technical
+        communications. Email: cuitfanshide@gmail.com
       </p>
       <CloseBtn onClick={props.btnOnClick} aria-label="Close">
         <span>

@@ -2,15 +2,15 @@ const colors = require('../styles/colors');
 
 module.exports = {
   pathPrefix: '/',
-  siteTitle: 'cuitfanshide-Blog',
-  siteLongTitle: 'cuitfanshide-Blog/Starter',
+  siteTitle: 'cuitfanshide',
+  siteLongTitle: 'cuitfanshide/Starter',
   siteUrl: 'https://gsbs.greglobinski.com',
   siteLanguage: 'en',
   siteLogo: '/logos/logo-1024.png',
   siteDescription: 'This is a starter/theme for GatsbyJS',
   // manifest.json
   manifestName: 'cuitfanshide',
-  manifestShortName: 'cuitfanshide-Blog',
+  manifestShortName: 'cuitfanshide',
   manifestStartUrl: '/',
   manifestBackgroundColor: colors.first,
   manifestThemeColor: colors.firstLight,
